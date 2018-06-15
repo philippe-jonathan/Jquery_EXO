@@ -13,6 +13,23 @@
   </form>
   <script>
 
+$('#nom').focus(function(){
+  $('#nom').css('border', '1px solid green')
+});
+
+$('#nom').focusout(function(){
+  $('#nom').css('border', '1px solid red')
+});
+
+$('#prenom').focus(function(){
+  $('#prenom').css('border', '1px solid green')
+});
+
+$('#prenom').focusout(function(){
+  $('#prenom').css('border', '1px solid red')
+});
+
+
   </script>
 </body>
 </html>
